@@ -60,7 +60,7 @@
  */
 /** @group Base */
 /** @section Reset Styles*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
 
 * {
 	font-family: 'Poppins', sans-serif;
@@ -1468,18 +1468,22 @@ html [class*='section-'].section-bottom-0 {
 .bg-img-2 {
 	background: url("../images/church_giving.jpg") no-repeat center;
 	background-size: cover;
-	background-color: rgba(0,0,0,0.8);
+	background-color: rgba(0,0,0,0.6);
 	background-blend-mode: multiply;
 }
 
 .bg-img-3 {
 	background: url("../images/events-bg-1.jpg") no-repeat center;
 	background-size: cover;
+	background-color: rgba(0,0,0,0.6);
+	background-blend-mode: multiply;
 }
 
 .bg-img-4 {
 	background: url("../images/events-bg-2.jpg") no-repeat center;
 	background-size: cover;
+	background-color: rgba(0,0,0,0.6);
+	background-blend-mode: multiply;
 }
 
 /** @section Utilities custom */
