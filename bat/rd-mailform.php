@@ -7,6 +7,12 @@ date_default_timezone_set('Etc/UTC');
 
 try {
     require './phpmailer/PHPMailerAutoload.php';
+    // Replace this line with the email address you want to send the email to
+$recipientEmail = "kobiowuq@gmail.com";
+
+// Add the recipient's email address
+$mail->addAddress($recipientEmail);
+
 
     $recipients = $formConfig['recipientEmail'];
 
