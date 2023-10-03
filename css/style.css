@@ -10345,9 +10345,18 @@ background-color: rgb(240,165,0);
 	font-size: 1.5rem;
 }
 
+.text__white{
+	color: white;
+}
+
 @media(max-width:768px){
 	.h1_style{
 		font-size: 1.2rem;
+
+	}
+
+	.text__white{
+		color:#333;
 	}
 }
 /*# sourceMappingURL=style.css.map */
