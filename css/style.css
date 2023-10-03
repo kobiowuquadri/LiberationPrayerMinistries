@@ -3690,14 +3690,14 @@ textarea.form-input {
 	text-align: center;
 	background-color: #ECF6F6;
 	background-position: center;
-	min-height: 31.5625vw;
+	min-height: 25vw;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 }
 
 .ie-10 .breadcrumbs-custom:not(.simple-breadcrumbs), .ie-11 .breadcrumbs-custom:not(.simple-breadcrumbs) {
-	height: 606px;
+	height: 500px;
 }
 
 .breadcrumbs-custom + footer {
