@@ -3697,7 +3697,7 @@ textarea.form-input {
 }
 
 .ie-10 .breadcrumbs-custom:not(.simple-breadcrumbs), .ie-11 .breadcrumbs-custom:not(.simple-breadcrumbs) {
-	height: 500px;
+	height: 400px;
 }
 
 .breadcrumbs-custom + footer {
@@ -10316,12 +10316,12 @@ a {
 }
 
 .video-wrap {
-	height: 400px;
+	height: 300px;
 }
 
 @media (min-width: 1200px) {
 	.video-wrap {
-		height: 670px;
+		height: 300px;
 	}
 }
 
