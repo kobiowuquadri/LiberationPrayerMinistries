@@ -10349,6 +10349,20 @@ background-color: rgb(240,165,0);
 	color: white;
 }
 
+.overlay_bg {
+	position:relative;
+}
+
+.overlay_bg::after{
+	position: absolute;
+	content: "";
+	background: rgba(0,0,0,0.7);
+	left:0;
+	bottom:0;
+	right:0;
+	top:0;
+}
+
 @media(max-width:768px){
 	.h1_style{
 		font-size: 1.2rem;

@@ -111,7 +111,7 @@ $mail->addAddress($recipientEmail);
         $mail->Port = $formConfig['port'];
 
         // Whether to use SMTP authentication
-        $mail->SMTPAuth = true;
+        // $mail->SMTPAuth = true;
         $mail->SMTPSecure = "ssl";
 
         // Username to use for SMTP authentication
