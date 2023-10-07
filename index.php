@@ -33,8 +33,9 @@ if (!$error) {
     $headers .= "Content-Transfer-Encoding: quoted-printable\r\n";
 
     if (mail($address, $e_subject, $msg, $headers)) {
-        // Email has sent successfully, echo a success page.
-        echo 'Success';
+        // Email has sent successfully, redirect to the homepage.
+        header("Location: index.html");
+        exit(); // Make sure to exit after the header redirect.
     } else {
         echo 'ERROR!';
     }
