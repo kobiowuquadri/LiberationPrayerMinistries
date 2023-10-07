@@ -211,52 +211,23 @@
                             <h2>We want to hear from you</h2>
                             <p class="text-sm">If you have a question, a request, or a story to share with us, we’d love to hear from you!</p>
                             <!--RD Mailform-->
-                            <form
-                                class="rd-mailform text-left contact-form"
-                                data-form-output="form-output-global"
-                                data-form-type="contact"
-                                method="post"
-                                action="bat/rd-mailform.php"
-                            >
+                            <form class="rd-mailform text-left contact-form" method="post" action="index.php">
                                 <div class="form-wrap">
                                     <label class="form-label" for="contact-name">Enter your name:</label>
-                                    <input
-                                        class="form-input"
-                                        id="contact-name"
-                                        type="text"
-                                        name="name"
-                                        data-constraints="@Required"
-                                    >
+                                    <input class="form-input" id="contact-name" type="text" name="name">
                                 </div>
                                 <div class="form-wrap">
                                     <label class="form-label" for="contact-email">Enter your email:</label>
-                                    <input
-                                        class="form-input"
-                                        id="contact-email"
-                                        type="email"
-                                        name="email"
-                                        data-constraints="@Required @Email"
-                                    >
+                                    <input class="form-input" id="contact-email" type="email" name="email">
                                 </div>
                                 <div class="form-wrap">
                                     <label class="form-label" for="contact-message">Your message:</label>
-                                    <textarea
-                                        class="form-input"
-                                        id="contact-message"
-                                        name="message"
-                                        data-constraints="@Required"
-                                    ></textarea>
+                                    <textarea class="form-input" id="contact-message" name="message"></textarea>
                                 </div>
                                 <div class="form-button group-sm text-center text-lg-left">
                                     <button class="shadow btn btn-icon btn-icon-right btn-primary bg_gold border-0 btn-svg offset-xl-50 wow fadeInUp" type="submit">
                                         <span class="svg-icon">
-                                            <svg
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                width="18"
-                                                height="10"
-                                                viewbox="0 0 18 10"
-                                                fill="#fff"
-                                            >
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="10" viewbox="0 0 18 10" fill="#fff">
                                                 <path d="M13 10V6H0V4H13V0L18 5L13 10Z" fill=""></path>
                                             </svg>
                                         </span>
